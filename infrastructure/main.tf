@@ -28,3 +28,10 @@ resource "azurerm_storage_account" "app" {
   account_tier             = "Standard"
   account_replication_type = "LRS"
 }
+resource "azurerm_resource_group" "extra" {
+      name = "bad"
+  location = "x"
+}resource "azurerm_resource_group" "extra" {
+      name = "bad"
+  location = "x"
+}
