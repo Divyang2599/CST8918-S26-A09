@@ -1,4 +1,4 @@
-# CST8918 - A09: Terraform script used to test the CI pipeline.
+# CST8918 - A09: simple Terraform script used to test the CI pipeline.
 # It is never applied - it only needs to pass fmt / validate / tflint.
 
 terraform {
@@ -27,11 +27,4 @@ resource "azurerm_storage_account" "app" {
   location                 = azurerm_resource_group.app.location
   account_tier             = "Standard"
   account_replication_type = "LRS"
-}
-resource "azurerm_resource_group" "extra" {
-      name = "bad"
-  location = "x"
-}resource "azurerm_resource_group" "extra" {
-      name = "bad"
-  location = "x"
 }
