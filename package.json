@@ -1,0 +1,25 @@
+{
+  "name": "cst8918-s26-a09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divyang2599/CST8918-S26-A09.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Divyang2599/CST8918-S26-A09/issues"
+  },
+  "homepage": "https://github.com/Divyang2599/CST8918-S26-A09#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}

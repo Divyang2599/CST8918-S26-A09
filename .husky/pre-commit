@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+set -e
+
+terraform fmt -check -recursive
+terraform -chdir=infrastructure validate
+tflint --chdir=infrastructure
