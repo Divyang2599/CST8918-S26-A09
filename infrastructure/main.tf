@@ -1,4 +1,4 @@
-# CST8918 - A09: simple Terraform script used to test the CI pipeline.
+# CST8918 - A09: Terraform script used to test the CI pipeline.
 # It is never applied - it only needs to pass fmt / validate / tflint.
 
 terraform {
